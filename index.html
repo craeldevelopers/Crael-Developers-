@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crael Developers</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!-- Link to your external CSS file -->
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav class="nav">
+            <div class="logo">
+                <a href="#home">
+                    <img src="logo.png" alt="Crael Developers Logo">
+                </a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Welcome to Crael Developers</h1>
+            <p>We create stunning, professional websites with sleek designs and cutting-edge technology.</p>
+            <a href="#about" class="cta-button">Learn More</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>At Crael Developers, we specialize in delivering high-end web solutions tailored to meet our clients' needs. With a passion for innovation and a commitment to quality, we transform ideas into stunning digital experiences.</p>
+        </div>
+    </section>
+
+<!-- Projects Section -->
+<section class="projects" id="projects">
+    <div class="carousel-container">
+        <div class="carousel-wrapper">
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="Project1.png" alt="Project 1">
+                </div>
+                <div class="project-info">
+                    <h3>High-End E-Commerce Website</h3>
+                    <p>We developed a state-of-the-art online store with a seamless user experience, optimized for mobile devices.</p>
+                    <div class="more-info">
+                        <p>Additional details about the project...</p>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="Project2.png" alt="Project 2">
+                </div>
+                <div class="project-info">
+                    <h3>Corporate Website Redesign</h3>
+                    <p>Our team revamped a leading corporate website to enhance user engagement and brand visibility.</p>
+                    <div class="more-info">
+                        <p>Additional details about the project...</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Add more project cards as needed -->
+        </div>
+    </div>
+</section>
+
+
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <div class="container">
+            <h2>Our Skills</h2>
+            <div class="skills-list">
+                <div class="skill-item">
+                    <i class="fas fa-code"></i> <!-- Icon for coding -->
+                    Web Development
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-paint-brush"></i> <!-- Icon for design -->
+                    UI/UX Design
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-database"></i> <!-- Icon for database -->
+                    Database Management
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-chart-line"></i> <!-- Icon for analytics -->
+                    Data Analytics
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-project-diagram"></i> <!-- Icon for project management -->
+                    Project Management
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form action="submit-form.php" method="POST">
+                <div class="input-group">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                </div>
+                <div class="input-group">
+                    <input type="email" name="email" placeholder="Your Email" required>
+                </div>
+                <div class="input-group">
+                    <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+            </form>
+            <div class="contact-info">
+                <p>Email: <a href="mailto:craeldevelopers@gmail.com">craeldevelopers@gmail.com</a></p>
+                <p>Phone: <a href="tel:+254741546668">0741546668</a></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="social-links">
+            <a href="https://twitter.com/yourhandle" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/yourprofile/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/yourhandle" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.instagram.com/Crael.developers/" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+        <p>&copy; 2024 Crael Developers. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Link to your external JavaScript file (if any) -->
+    <script src="animations.js"></script>
+    <script src="Projects.js"></script>
+</body>
+
+</html>
